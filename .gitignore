@@ -1,3 +1,4 @@
 log/*
 tmp/*
-db/*sql
+db/*sqlite3
+db/schema.rb
