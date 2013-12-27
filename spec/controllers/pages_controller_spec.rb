@@ -9,4 +9,10 @@ describe PagesController do
     end
   end
 
+  describe "GET 'master'" do
+    it "returns http success" do
+      get 'master'
+      response.should be_success
+    end
+  end
 end
